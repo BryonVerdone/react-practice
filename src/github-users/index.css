@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+  transition: 300ms;
+}
+a:hover {
+  color: blue;
+}
+h2 {
+  text-align: center;
+}
+.user-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.users {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem auto;
+}
+.users li {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: var(--clr-white);
+  padding: 1rem 2rem;
+  border-radius: var(--radius);
+  text-align: left;
+}

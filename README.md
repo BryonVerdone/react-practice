@@ -1,3 +1,5 @@
+# A collection of various of small challenges or projects made using React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
